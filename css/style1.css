@@ -1,0 +1,200 @@
+.my_container_div {
+  background-color: papayawhip;
+  border: 3px gray solid;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+}
+
+p.fancy {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.top_div, .subtitlediv {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.right_info {
+  text-align: center;
+  width: 70%;
+}
+
+.left_profile_photo {
+  position: relative;
+  width: 300px;
+  height: 210px;
+  border-radius: 0%;
+  overflow: visible;
+}
+
+.left_profile_photo img {
+  max-width: 100%;
+}
+
+.bottom_div {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LinkedIn {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.LinkedIn img {
+  max-width: 100%;
+}
+
+.github {
+  position: relative;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.github img {
+  max-width: 100%;
+}
+
+.resume {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.resume_photo {
+  position: relative;
+  width: 100%;
+  height: 150%;
+  overflow:visible;
+}
+
+.resume img {
+  max-width: 100%;
+}
+
+.projects {
+  position: relative;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.projects img {
+  max-width: 100%;
+}
+
+.topnav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 50px;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 25px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0d8e5f88;
+  color: white;
+}
+
+.contact {
+  text-align: center;
+}
+
+.content_table {
+  width: 30%;
+  table-layout: fixed;
+}
+
+.title1 {
+  font-size: 30px;
+  max-width: 100px;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.title {
+  font-size: 30px;
+  max-width: 100px;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title4 {
+  font-size: 20px;
+}
+
+.projectTitle {
+  text-align: center;
+  font-size: 30;
+  color: brown;
+}
+
+table.prjectContent {
+  /* width: 100%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.subtitle{
+  width: 10%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .projectPhoto{
+    width: 100%;
+  }
+
+  .subtitlediv{
+    display:inline;
+  }
+  .subtitle{
+    width: 100%;
+    text-align: center;
+  }
+}

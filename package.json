@@ -1,0 +1,10 @@
+{
+  "name": "shashawang-web",
+
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "*"
+  }
+}
